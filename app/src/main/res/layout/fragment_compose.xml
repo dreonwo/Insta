@@ -15,14 +15,18 @@
         android:ems="10"
         android:gravity="start|top"
         android:hint="Description"
-        android:inputType="textMultiLine" />
+        android:inputType="textMultiLine"
+        android:textColorHint="#FFFFFF" />
 
     <Button
         android:id="@+id/btnTakePicture"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="5dp"
-        android:text="Take Picture" />
+        android:background="@color/fuschia"
+        android:backgroundTint="@color/fuschia"
+        android:text="Take Picture"
+        android:textColor="#FFFFFF" />
 
     <ImageView
         android:id="@+id/ivPostImage"

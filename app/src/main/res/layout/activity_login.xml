@@ -4,28 +4,49 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="16dp"
+    android:layout_margin="0dp"
+    android:background="@drawable/gradient_fuschia_lavender_indigo"
     android:orientation="vertical"
     tools:context=".LoginActivity">
+
+    <TextView
+        android:id="@+id/tvInstaName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:fontFamily="cursive"
+        android:text="Instagram"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        android:textStyle="bold" />
 
     <EditText
         android:id="@+id/etUsername"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:hint="Username" />
+        android:hint="Username"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
 
     <EditText
         android:id="@+id/etPassword"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
         android:hint="Password"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
 
     <Button
         android:id="@+id/btnSignUp"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Sign Up" />
+        android:layout_marginBottom="20dp"
+        android:text="Sign Up"
+        android:textStyle="italic" />
 
     <Button
         android:id="@+id/btnLogin"
@@ -33,5 +54,6 @@
         android:layout_height="wrap_content"
         android:background="#FFFFFF"
         android:text="Login"
+        android:textStyle="italic"
         app:iconTint="#FFFFFF" />
 </LinearLayout>
