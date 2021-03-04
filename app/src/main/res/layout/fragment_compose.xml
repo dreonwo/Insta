@@ -16,6 +16,7 @@
         android:gravity="start|top"
         android:hint="Description"
         android:inputType="textMultiLine"
+        android:textColor="#FFFFFF"
         android:textColorHint="#FFFFFF" />
 
     <Button
